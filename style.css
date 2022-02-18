@@ -97,7 +97,7 @@ button {
 
 .random {
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 900;
     height: 80px;
     padding: 20px;
     align-self: center;
@@ -122,6 +122,16 @@ button {
     height: 150px;
     width: 150px;
     gap: 40px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color:#1F2937;
+
+}
+
+.team {
+    font-size: 18px;
+    color: #3882F6;
 }
 
 
@@ -135,19 +145,14 @@ img {
 
 
 
-
-
-
-
-
-
-
 .midsection-two {
     height: 400px;
     width: 100%;
     background: #E5E7EB;
     display: flex;
     align-items: center;
+    flex-direction: column;
+    
 }
 
 
@@ -160,17 +165,20 @@ img {
     font-weight: 200;
     height: 200px;
     width: auto;
-    
     text-align: center;
     align-content: center;
 }
 
+.testimonialtwo {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 200;
+    height: 200px;
+    width: auto;
+    text-align: center;
+    align-content: center
 
-
-
-
-
-
+}
 
 
 
@@ -183,5 +191,8 @@ img {
 
 
 .footer {
+    background: #1F2937;
+    height: 120px;
+    width: 100%;
 
 }
