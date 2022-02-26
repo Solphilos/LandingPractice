@@ -1,9 +1,12 @@
 
 
 function signUp() {
-    let answer = prompt('Please enter email adress')
+    let answer = prompt('Please enter email address')
     if(answer) {
-        prompt('Please enter name')
-        alert('Subscribed!')
+        let name = prompt('Please enter name')
+        if(name != null) {
+            alert("Thanks for subscribing" + " " + name + "!")
+        }
+       
     }
 }
